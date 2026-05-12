@@ -1,22 +1,27 @@
-# robots.txt for Stick War Legacy
-# URL: https://jesseyt565.github.io/stick-war-legacy/
+# robots.txt for Stick War Legacy Guide
+# GitHub Pages - https://jesseyt565.github.io/stick-war-legacy/
 
 User-agent: *
 Allow: /
 
-# No need to block anything as it's a single page
-# This allows full crawling of the blog post
-
 # Sitemap location
-Sitemap: https://jesseyt565.github.io/stick-war-legacy/
+Sitemap: https://jesseyt565.github.io/stick-war-legacy/sitemap.xml
 
-# Crawl normally
-Crawl-delay: 0
+# No crawl delay needed for GitHub Pages
+# GitHub Pages is fast and can handle crawlers
 
-# Googlebot
+# Allow all major search engines
 User-agent: Googlebot
 Allow: /
 
-# Bingbot
 User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: Yandex
 Allow: /
