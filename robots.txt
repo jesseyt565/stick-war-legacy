@@ -1,5 +1,5 @@
-# robots.txt for Stick War Legacy Blog Post
-# URL: https://yourdomain.com/stick-war-legacy-guide.html
+# robots.txt for Stick War Legacy
+# URL: https://jesseyt565.github.io/stick-war-legacy/
 
 User-agent: *
 Allow: /
@@ -8,7 +8,7 @@ Allow: /
 # This allows full crawling of the blog post
 
 # Sitemap location
-Sitemap: https://yourdomain.com/sitemap.xml
+Sitemap: https://jesseyt565.github.io/stick-war-legacy/
 
 # Crawl normally
 Crawl-delay: 0
