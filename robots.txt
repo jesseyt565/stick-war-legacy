@@ -1,0 +1,22 @@
+# robots.txt for Stick War Legacy Blog Post
+# URL: https://yourdomain.com/stick-war-legacy-guide.html
+
+User-agent: *
+Allow: /
+
+# No need to block anything as it's a single page
+# This allows full crawling of the blog post
+
+# Sitemap location
+Sitemap: https://yourdomain.com/sitemap.xml
+
+# Crawl normally
+Crawl-delay: 0
+
+# Googlebot
+User-agent: Googlebot
+Allow: /
+
+# Bingbot
+User-agent: Bingbot
+Allow: /
